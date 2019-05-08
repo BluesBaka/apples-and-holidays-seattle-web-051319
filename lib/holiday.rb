@@ -85,6 +85,6 @@ def all_holidays_with_bbq(holiday_hash)
 
       end
 
-    end.compact
+    end.compact.flatten
   end
 end
